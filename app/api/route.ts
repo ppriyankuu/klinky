@@ -3,9 +3,9 @@ import { NextResponse } from 'next/server';
 
 export const GET = async () => {
   try {
-    const links = await prisma.url.deleteMany({});
-
     await prisma.visit.deleteMany({});
+
+    const links = await prisma.url.deleteMany({});
 
     return NextResponse.json(
       { message: 'data deleted', links },
