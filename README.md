@@ -8,7 +8,7 @@ Techstack : Nextjs, Prisma, Postgres, and nanoid (for unique hash generation)
 ## Getting Started
 
 ```bash
-git clone https://github.com/ppriyankuu/Klinky
+git clone https://github.com/ppriyankuu/klinky
 ```
 
 ```bash
