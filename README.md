@@ -14,9 +14,7 @@ git clone https://github.com/ppriyankuu/klinky
 ```bash
 npm i
 ```
-```bash 
-// setup the postgres db & .env
-```
+`// setup the postgres db & .env`
 ```bash
 npx prisma migrate dev
 ```
