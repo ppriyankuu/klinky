@@ -8,18 +8,20 @@ Techstack : Nextjs, Prisma, Postgres, and nanoid (for unique hash generation)
 ## Getting Started
 
 ```bash
-git clone https://github.com/ppriyankuu/klinky
+    $ git clone https://github.com/ppriyankuu/klinky
 ```
 
 ```bash
-npm i
+    $ npm i
 ```
+
 `// setup the postgres db & .env`
+
 ```bash
-npx prisma migrate dev
+    $ npx prisma migrate dev
 ```
 ```bash
-npm run dev
+    $ npm run dev
 ```
 
 
